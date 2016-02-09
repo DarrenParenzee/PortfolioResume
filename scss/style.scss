@@ -1,4 +1,8 @@
 @import '_bootstrap.scss';
+@import '_header.scss';
+@import '_contact.scss';
+@import '_work-list.scss';
+@import '_footer.scss';
 
 /* Variable */
 
@@ -13,7 +17,31 @@ body {
 	background: $background-color;
 	font-size: $font;
 }
-
+h2 {
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.4em;
+	font-size: 1.5em;
+}
+.row {
+	margin-bottom: 20px;
+}
 .media-left {
 	width: 20%;
+}
+.primary, strong, h2 {
+	color: $primary-color;
+}
+.container-main {
+	background: #FFF;
+	margin-top: 80px;
+	padding: 0 30px 30px 30px;
+}
+.line {
+	max-width: 100%;
+	padding: 40px 0;
+}
+.media {
+	background: $background-color;
+	padding: 10px;
 }

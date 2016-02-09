@@ -6604,6 +6604,13 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /*# sourceMappingURL=bootstrap.css.map */
+/* Variable */
+body {
+  font-family: 'Open Sans', Arial, Sans Serif;
+  color: #363636;
+  background: #ededed;
+  font-size: 16px; }
+
 .media-left {
   width: 20%; }
 

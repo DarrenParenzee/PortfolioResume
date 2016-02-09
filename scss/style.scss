@@ -1,5 +1,19 @@
 @import '_bootstrap.scss';
 
+/* Variable */
+
+$primary-color: #3b5a76;
+$background-color: #ededed;
+$text-color: #363636;
+$font: 16px;
+
+body {
+	font-family: 'Open Sans', Arial, Sans Serif;
+	color: $text-color;
+	background: $background-color;
+	font-size: $font;
+}
+
 .media-left {
 	width: 20%;
 }
